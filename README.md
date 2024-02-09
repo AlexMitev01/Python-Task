@@ -48,7 +48,7 @@ python app.py
 ```
 
 After running the command, the Flask development server will start, and you can access the web application by visiting http://127.0.0.1:5000/ in your web browser.(
-<i> If the port is used by another program on local machine you can always change the configuration on the app.py of the project <i>
+<i> If the port is used by another program on local machine you can always change the configuration on the app.py of the project <i> )
 
 
 Make sure to follow these steps to ensure the smooth execution of the Address Grouping Web Application on your local machine.
