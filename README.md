@@ -1,5 +1,7 @@
 # Python-Task
 
+## 1. Intro
+
 Welcome to my Personal invetion of the task given, I call it Address Grouping Web Application build in Python. 
 In the following READ.ME file you find all of the information you need to set up the environment on your local machine. 
 You will receive a throughout instructions of which librabries you need to install and the all of the updates you need to perform in order to have this web functioning right. 
@@ -8,16 +10,15 @@ You will receive a throughout instructions of which librabries you need to insta
 DISCLAIMER:
 I did not attach it to any free domain server or any free hsoting servers for a technical convinience.
 
-Usage
+## 2. Usage
 
-Run the Application
+### Run the Application
 Launch the application by executing the following command:
 
-bash
-Copy code
-python app.py
+
+` python app.py `
 Access the User Interface
-Open your preferred web browser and visit http://127.0.0.1:5000/.
+Open your preferred web browser and visit http://127.0.0.1:5000/.```
 
 Input Data
 You can input data through two methods:
