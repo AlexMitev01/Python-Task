@@ -31,23 +31,23 @@ pip install flask
 
 ***Pandas***: Pandas is a powerful data manipulation library for Python. Install it using pip:
 
-<br>
+
 ```
 pip install pandas
 ```
-<br>
+
 
 Once you have installed Python, Flask, and Pandas, you can clone the repository containing the Address Grouping Web Application and navigate to the project directory. Cloning command:
 
 
-<br>
+
 ```
 git clone https://github.com/AlexMitev01/Python-Task.git
 ```
 
 Then run the following command to start the project:
 
-<br>
+
 ```
 python app.py
 ```
