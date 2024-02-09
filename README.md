@@ -1,29 +1,29 @@
 # Python-Task
 
-## Tabel of Contents
+## Table of Contents
 - [Introduction](#intro)
 - [Prerequisites](#prerequisites)
 - [Functionality](#functionality)
 - [Final Notes](#final-notes)
 
-## 1. Intro
-
+## Introduction
 <p align="justify">
-Welcome to my Personal invetion of the task given, I call it Address Grouping Web Application build in Python. 
-In the following READ.ME file you find all of the information you need to set up the environment on your local machine. 
-You will receive a throughout instructions of which librabries you need to install and the all of the updates you need to perform in order to have this web functioning right. 
+Welcome to my Personal invention of the task given, I call it Address Grouping Web Application built in Python. 
+In the following README file, you will find all of the information you need to set up the environment on your local machine. 
+You will receive thorough instructions on which libraries you need to install and all of the updates you need to perform in order to have this web application functioning correctly. 
 
 <div>DISCLAIMER:
-I did not attach it to any free domain server or any free hsoting servers for a technical convinience.
+I did not attach it to any free domain server or any free hosting servers for technical convenience.
 </div>
 
-## 2. Prerequisites
+## Prerequisites
 <p align="justify">
 To run the Address Grouping Web Application, you need to ensure that Python and the required Python packages are installed on your local machine. Here are the prerequisites:
 
 ***Python***: You must have Python installed on your system. You can download and install Python from the official Python website: https://www.python.org/downloads/
-<br>
+
 ***Flask***: Flask is a web framework for Python. You can install Flask using pip, the Python package installer. Open a terminal or command prompt and run the following command:
+
 <br>
 ```
 pip install flask
