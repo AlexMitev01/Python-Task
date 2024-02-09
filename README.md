@@ -74,5 +74,5 @@ Once data is entered, click the "Process" button to initiate the grouping proces
 After processing, download the grouped results as a .txt file by clicking the "Download Results" button.
 
 ## Final Notes
-If you have read all of the file, I have carefully constructed for you, well congratulations!!! Now you must have a working local web-app for Addressing Groups built in Python>. 
+If you have read all of the file, I have carefully constructed for you, well congratulations!!! Now you must have a working local web-app for Addressing Groups built in Python. 
 If you need additional instructions or guidance for the code or for the environment, you can always feel free to contact me via email: mitevalex21@gmail.com
