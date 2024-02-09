@@ -30,16 +30,22 @@ pip install flask
 
 ***Pandas***: Pandas is a powerful data manipulation library for Python. Install it using pip:
 <br>
-```pip install pandas```
+```
+pip install pandas
+```
 <br>
 Once you have installed Python, Flask, and Pandas, you can clone the repository containing the Address Grouping Web Application and navigate to the project directory. Cloning command: 
 
 <br>
-```git clone https://github.com/AlexMitev01/Python-Task.git```
+```
+git clone https://github.com/AlexMitev01/Python-Task.git
+```
 
 Then run the follwoing, commnad to start the project: 
 <br>
-```python app.py```
+```
+python app.py
+```
 
 After running the command, the Flask development server will start, and you can access the web application by visiting http://127.0.0.1:5000/ in your web browser.(
 <i> If the port is used by another program on local machine you can always change the configuration on the app.py of the project <i>
