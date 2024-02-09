@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Grouping Web App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .file-input-label {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .file-input-label:hover {
+            background-color: #0056b3;
+        }
+        .file-info {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .remove-file {
+            background-color: #dc3545;
+            color: #fff;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+        .remove-file:hover {
+            background-color: #c82333;
+        }
+        button[type="submit"] {
+            background-color: #075c18;
+            color: #fff;
+            border: none;
+            padding: 14px 28px; /* Adjusted padding */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+        button[type="submit"]:hover {
+            background-color: #00b330;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Address Grouping Web App</h1>
+        <form method="post" action="/process" enctype="multipart/form-data">
+            <label for="file" class="file-input-label">Choose File</label>
+            <input type="file" id="file" name="file" onchange="updateFileLabel()" accept=".csv"><span id="file-info" class="file-info"></span>
+            <button type="button" class="remove-file" onclick="clearFile()">Remove</button><br><br>
+            <label for="text_input">Or enter data manually:</label><br>
+            <textarea id="text_input" name="text_input" rows="5" cols="50"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function updateFileLabel() {
+            var fileInput = document.getElementById('file');
+            var fileInfo = document.getElementById('file-info');
+            fileInfo.innerText = fileInput.files[0] ? fileInput.files[0].name : '';
+        }
+
+        function clearFile() {
+            var fileInput = document.getElementById('file');
+            fileInput.value = '';
+            var fileInfo = document.getElementById('file-info');
+            fileInfo.innerText = '';
+        }
+    </script>
+</body>
+</html>

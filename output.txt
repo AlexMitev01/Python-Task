@@ -1,0 +1,16 @@
+Name	Address
+Leon Wu
+Li Deng
+Frieda Müller
+Dragan Doichinov
+Ivan Draganov
+Ilona Ilieva
+Name
+"1 Guanghua Road, Beijing, China 100020"
+"1 Guanghua Road, Chaoyang District, Beijing, P.R.C 100020"
+"Konrad-Adenauer-Straße 7, 60313 Frankfurt am Main, Germany"
+"Shipka Street 34, Sofia, Bulgaria"
+"ul. Shipka 34, 1000 Sofia, Bulgaria"
+"ул. Шипка 34, София, България"
+Address	names
+address
