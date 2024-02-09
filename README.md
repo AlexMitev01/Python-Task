@@ -24,7 +24,6 @@ To run the Address Grouping Web Application, you need to ensure that Python and 
 
 ***Flask***: Flask is a web framework for Python. You can install Flask using pip, the Python package installer. Open a terminal or command prompt and run the following command:
 
-<br>
 ```
 pip install flask
 ```
