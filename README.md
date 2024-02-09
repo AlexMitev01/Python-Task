@@ -1,9 +1,10 @@
 # Python-Task
 
 ## Tabel of Contents
-- [Introduction] (#intro)
-- [Prerequisites] (#prerequisites)
-- [Functionality] (#functionality)
+- [Introduction](#intro)
+- [Prerequisites](#prerequisites)
+- [Functionality](#functionality)
+- [Final Notes](#final-notes)
 
 ## 1. Intro
 
